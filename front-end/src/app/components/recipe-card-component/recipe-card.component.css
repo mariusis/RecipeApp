@@ -1,0 +1,51 @@
+/* recipe-card.component.css */
+.recipes {
+  
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Create 4 columns of equal width */
+  grid-gap: 20px; /* Add some space between grid items */
+}
+.card {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  
+  border: 1px solid #e0e0e0;  /* Add a border */
+  
+  
+}
+ 
+
+  .food-photo {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .ingredients-list {
+    margin-bottom: 10px;
+  }
+  
+  .author-name {
+    font-style: italic;
+  }
+  
+  .action-buttons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .add-to-favorites {
+    color: #FFD700; /* Change the color as needed */
+    margin-right: 10px;
+  }
+  
+  .like-button {
+    background-color: #007bff; /* Change the color as needed */
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
