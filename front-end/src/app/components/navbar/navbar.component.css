@@ -1,0 +1,19 @@
+mat-toolbar {
+    background-color: #1976D2; /* Adjust the color as needed */
+    color: white;
+  }
+  
+  .spacer {
+    flex: 1 1 auto;
+  }
+  
+  button {
+    margin-left: 10px;
+    text-transform: uppercase;
+  }
+  
+  span {
+    font-weight: bold;
+  }
+  
+  /* Adjust styles as needed */
