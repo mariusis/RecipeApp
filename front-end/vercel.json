@@ -1,0 +1,10 @@
+{
+  "builds": [
+    {
+      "src": "src/app/**/*",
+      "use": "@vercel/static-build",
+      "config": { "distDir": "dist/your-project-name" }
+    }
+  ],
+  "rewrites": [{ "source": "/(.*)", "destination": "/" }]
+}
